@@ -1,4 +1,4 @@
-# Sistema de Gestión de Vacaciones — Canel's
+# Sistema de Gestión de Vacaciones
 
 ![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?logo=laravel&logoColor=white)
@@ -6,7 +6,7 @@
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.2.2-06B6D4?logo=tailwindcss&logoColor=white)
 ![License](https://img.shields.io/badge/Licencia-Propietaria-red)
 
-Sistema interno de gestión de solicitudes de vacaciones, permisos e incapacidades para el personal de **Canel's**. Desarrollado con Laravel 12, SQL Server y TailwindCSS.
+Sistema interno de gestión de solicitudes de vacaciones, permisos e incapacidades para el personal de **Proyect**. Desarrollado con Laravel 12, SQL Server y TailwindCSS.
 
 ---
 
@@ -112,7 +112,7 @@ php artisan serve
 ### Variables de entorno clave (`.env`)
 
 ```dotenv
-APP_NAME="Canel's Vacaciones"
+APP_NAME="'s Vacaciones"
 APP_ENV=production          # cambiar a production en servidor
 APP_DEBUG=false             # false en producción
 APP_URL=https://vacaciones.Proyect.com
@@ -277,7 +277,7 @@ Crear una tarea programada que ejecute cada minuto:
 
 ```
 Programa: php
-Argumentos: C:\ruta\al\proyecto\artisan schedule:run
+Argumentos: C:\ruta\al\Proyecto\artisan schedule:run
 ```
 
 **En Linux:**
@@ -333,7 +333,7 @@ chown -R www-data:www-data storage bootstrap/cache
 
 ## Licencias de Dependencias
 
-Este proyecto utiliza las siguientes dependencias de código abierto:
+Este Proyecto utiliza las siguientes dependencias de código abierto:
 
 ### Backend (PHP / Composer)
 
@@ -366,7 +366,7 @@ Este proyecto utiliza las siguientes dependencias de código abierto:
 ## Autor
 
 **Gael Alvarado**  
-Desarrollador del Sistema de Gestión de Vacaciones — Canel's  
+Desarrollador del Sistema de Gestión de Vacaciones — Proyect  
 2026
 
 ---
@@ -378,13 +378,13 @@ Desarrollador del Sistema de Gestión de Vacaciones — Canel's
 - A **TailwindCSS** por simplificar radicalmente el diseño de interfaces.
 - Al equipo de **Microsoft** por los drivers ODBC y las extensiones PHP para SQL Server.
 - A **Font Awesome** por la iconografía que da vida a la interfaz.
-- Al área de **Recursos Humanos de Canel's** por definir los requerimientos y participar activamente en las pruebas del sistema.
+- Al área de **Recursos Humanos de Proyect** por definir los requerimientos y participar activamente en las pruebas del sistema.
 
 ---
 
 ## Licencia
 
-Este sistema es **software propietario** desarrollado exclusivamente para uso interno de **Canel's**.  
+Este sistema es **software propietario** desarrollado exclusivamente para uso interno de **Proyect**.  
 Queda prohibida su distribución, modificación o uso fuera del contexto para el que fue desarrollado sin autorización expresa del autor y de la empresa.
 
 © 2026 Gael Alvarado — Todos los derechos reservados.
