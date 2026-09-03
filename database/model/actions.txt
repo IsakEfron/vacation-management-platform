@@ -1,0 +1,13 @@
+1. Cache en Redis en lugar de database — con muchos usuarios concurrentes el driver 
+de cache database genera contención en la tabla cache. En .env de producción:
+    CACHE_STORE=redis
+    SESSION_DRIVER=redis
+    REDIS_HOST=127.0.0.1
+    REDIS_PORT=6379
+    Si el servidor no tiene Redis, al menos cambia el SESSION_DRIVER:
+    SESSION_DRIVER=file   # más rápido que database para sesiones individuales
+    CACHE_STORE=database  # el cache puede quedarse en BD
+
+2. Queue para el export de Excel — con 3500 empleados el export puede tardar varios segundos y 
+bloquear el proceso PHP. En producción considera moverlo a un Job:
+    QUEUE_CONNECTION=database
